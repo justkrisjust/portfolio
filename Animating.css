@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+     
+    overflow: hidden;
+}
+.navbar a{
+    padding: 10px;
+    display: block;
+    color: hsl(0, 69%, 76%);
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover {
+    
+    color: rgb(253, 6, 6);
+
+}
+.navbar li{
+    float: left;}
+
+.content{
+    font-style: italic;
+    font-size: 35px;
+    text-align:center;
+    color: rgb(189, 63, 9);
+    
+
+}
+
+.BGimage{
+    background-image: url("images/anime.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+    filter: blur(10px);
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: beige;
+}
+#a1:hover{
+    animation-name: grow;
+    animation-duration: 2s;
+
+}
+@keyframes grow{
+    90%{transform:scale(2, 2) ;}
+}
+#a1{
+    margin-right: 120px;
+    margin-bottom: 39px;
+}

@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+     
+    overflow: hidden;
+}
+.navbar a{
+    padding: 15px;
+    display: block;
+    color: hsl(34, 93%, 11%);
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover {
+    
+    color: rgb(245, 249, 251);
+
+}
+.navbar li{
+    float: left;}
+
+.content{   
+    font-style: italic;
+    font-size: 35px;
+    
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+
+}
+
+.BGimage{
+    background-image: url("images/aboutmeBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+    filter: blur(10px);
+}
+.row{
+    
+    height: auto;
+    
+    
+}
+.Mbox1{
+    height: 100%;
+    width: 100%;
+    
+    display: inline-block;
+    
+}
+.tenth{
+    height: 50%;
+   
+
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: beige;
+}
+
+
+
+.tenth{
+    text-align: start;
+    text-size-adjust: 12px;
+    text-align: start;
+    color: rgb(6, 11, 11);
+   
+}
+
+
+
+span{
+    color: beige;
+}
+#pt{
+    color:rgba(28, 26, 26, 0.879);
+
+}
+#pb{
+    color: rgb(12, 0, 0);
+}
+
+#pt,#pb{
+    width: 100%;
+    
+    overflow: hidden;
+    animation-name: typing ;
+    animation-duration: 5s;
+}
+
+@keyframes typing{
+    from{width: 0%;}
+}
+
+

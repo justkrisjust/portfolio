@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+     
+    overflow: hidden;
+}
+.navbar a{
+    padding: 10px;
+    display: block;
+    color: hsl(0, 69%, 76%);
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover {
+    
+    color: rgb(253, 6, 6);
+
+}
+.navbar li{
+    float: left;}
+
+body{
+    background-color: rgb(152, 148, 148);
+}

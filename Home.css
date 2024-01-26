@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+     
+    overflow: hidden;
+}
+.navbar a{
+    padding: 15px;
+    display: block;
+    color: hsl(202, 37%, 84%);
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover {
+    
+    color: rgb(118, 203, 246);
+
+}
+.navbar li{
+    float: left;}
+
+
+.BGimage{
+    background-image: url("images/home\,BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+    filter: blur(10px);
+}
+
+.container{
+    margin-top: 5%;
+    margin-left: 15%;
+    color: rgb(232, 249, 255);
+  
+    
+
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(223, 252, 255);
+}
+
+#subheading{
+    font-size: 15px;
+}
+
+#content{
+    font-size: 20px;
+    color: rgb(232, 249, 255);
+    
+}
+#content:hover{
+    animation-name: fade;
+    animation-duration: 15s;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes fade{
+    
+   to{width: 0;}
+}
+
+#subheading:hover{
+
+        animation-name: move;
+        animation-duration: 15s;
+
+}
+
+@keyframes move{
+    50%{transform: translateX(-2%);}
+}
+
+.cont{
+    margin-top: 5%;
+    margin-left: 15%;   
+     font-size: 50px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -1500px 0;
+    animation: back 5s linear infinite alternate;
+}
+
+@keyframes back{
+    100%{
+        background-position: 0 0;}
+}
